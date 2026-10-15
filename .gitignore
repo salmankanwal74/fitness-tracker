@@ -1,0 +1,15 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Submission-only files (public repo mein nahi)
+SUBMISSION_INFO.txt
+Documentation/
+
+# Dependencies, builds, logs, backups
+node_modules/
+dist/
+*.log
+logs/
+backend/backups/
